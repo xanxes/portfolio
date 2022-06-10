@@ -1,0 +1,54 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+header {
+ 
+    height: 13vh;
+    width: 150vw;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #212529;
+}
+
+nav {
+    display: flex;
+    width: 94vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #FFF;
+    font-size: 1.125rem;
+    transition: ease 0.7s;
+}
+nav a:hover {
+    color: #9C47C6;
+}
+
+
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.button-nav {
+    color: #FFF;
+    border: #6D1499 solid 3px;
+    border-radius: 50px;
+    padding: 12px 26px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease 0.7s;
+    background-color: #9C47C6;
+}
+
+.button-nav:hover {
+    color: #212529;
+    border: #6D1499 solid 3px;
+}

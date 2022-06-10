@@ -1,0 +1,128 @@
+section {
+    
+    padding-top: 115px;
+    display: flex;
+    flex-direction: column;
+    background-color: #212529;
+}
+
+/* PÁGINA HOME: */
+
+.home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.boas-vindas {
+    font-family:'Inter', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFF;
+}
+.curso {
+    font-family:'Inter', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFF;
+}
+.curso-2 {
+    font-family:'Inter', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #FFF;
+}
+
+.image-container {
+    margin-top: 50px;
+}
+
+
+.columns-main {
+    display: flex;
+    gap: 50px;
+}
+
+.column-main {
+    background-color: #292B2E;
+    height: 120px;
+    width: 416px;
+    margin-top: 95px;
+    border-radius: 10px;
+    transition: ease 0.7s;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.column-main:hover {
+    box-shadow: 3px 3px 5px #0009;
+    transform: scale(1.08);
+}
+
+
+.txt {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    justify-content: center;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    color: #9C47C6;
+    font-size: 1.625rem;
+}
+
+
+/* PÁGINA SKILLS: */
+
+.skills-container {
+    display: flex;
+    align-items: center;
+
+  
+   
+}
+
+.skills-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 9.375rem;
+    color: #9C47C6;
+    text-shadow: -8px 0px 3px #6D1499;
+}
+
+.skills-1 {
+    
+    width: 45%;
+}
+
+
+.skills {
+   
+    flex-direction: column;
+    display: flex;
+   
+}
+
+.skills-name {
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.barrinha {
+    height: 16px;
+    width: 850px;
+}
+
